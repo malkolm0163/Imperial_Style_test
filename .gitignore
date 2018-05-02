@@ -1,3 +1,7 @@
+.idea/
+
 node_modules/
-.idea
+
 app/sass/header.sass
+
+package-lock.json

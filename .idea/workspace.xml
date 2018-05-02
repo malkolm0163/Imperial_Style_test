@@ -2,106 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab2bdeed-89f1-4a24-9f77-bfa67570b014" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/details.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/fotorama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/fotorama@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/gallery/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/gallery_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/color.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/dev-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/dev-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/magnific-popup.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/_settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/iframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/inline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/retina.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/fonts.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/fonts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/fonts.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/header.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/header.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/kover.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/kover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/libs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/libs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate-css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/waypoints/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_vars.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/fonts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/header.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-416">
@@ -138,20 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1331">
-              <caret line="537" column="11" selection-start-line="537" selection-start-column="11" selection-end-line="537" selection-end-column="11" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -192,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/sass/_media.sass" />
         <option value="$PROJECT_DIR$/sass/main.sass" />
@@ -208,6 +100,7 @@
         <option value="$PROJECT_DIR$/app/sass/header.sass" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -254,36 +147,6 @@
             </path>
             <path>
               <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="main.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -294,6 +157,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="230" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="230" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="229" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="230" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="229" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="230" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="229" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -333,12 +212,12 @@
       <workItem from="1525085909174" duration="9666000" />
       <workItem from="1525095748004" duration="10605000" />
       <workItem from="1525242364164" duration="17778000" />
-      <workItem from="1525261764741" duration="31033000" />
+      <workItem from="1525261764741" duration="31999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71623000" />
+    <option name="totallyTimeSpent" value="72589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1010" height="1047" extended-state="0" />
@@ -347,10 +226,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18811882" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14947368" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18811882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14947368" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -389,6 +268,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -587,13 +492,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Untitled-1.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/header.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -717,16 +615,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="8789">
           <caret line="517" column="16" lean-forward="true" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="16" />
         </state>
       </provider>
@@ -735,6 +626,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1331">
           <caret line="537" column="11" selection-start-line="537" selection-start-column="11" selection-end-line="537" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -759,6 +657,13 @@
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
