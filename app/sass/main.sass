@@ -1,0 +1,778 @@
+@import "bourbon"
+@import "vars"
+
+//Load Libs SASS
+@import "../libs/magnific-popup/dist/magnific-popup"
+
+*::-webkit-input-placeholder
+  color: #666
+  opacity: 1
+
+*:-moz-placeholder
+  color: #666
+  opacity: 1
+
+*::-moz-placeholder
+  color: #666
+  opacity: 1
+
+*:-ms-input-placeholder
+  color: #666
+  opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+  color: #666
+
+body input:required:valid,
+body textarea:required:valid
+  color: #666
+
+body
+  font: 15px/1.73 $font
+  min-width: 320px
+  position: relative
+  overflow-x: hidden
+
+h1, h2, h3, h4, h5, h6, p, ul
+  margin: 0
+  padding: 0
+
+img
+  max-width: 100%
+
+input[type=radio], input[type=checkbox]
+  display: none
+
+.customRadio
+  .label, &__radio
+    display: inline-block
+    vertical-align: middle
+  &__radio
+    width: 20px
+    height: 20px
+    border: 1px solid #b0a57e
+    border-radius: 3px
+    position: relative
+
+.customCheckbox
+  display: block
+  &__chkb
+    position: relative
+    width: 20px
+    height: 20px
+    border: 2px solid rgba(176, 165, 126, .37)
+  &__chkb, .label
+    display: inline-block
+    vertical-align: middle
+
+.customRadio__input:checked + .customRadio__radio::before
+  content: ""
+  display: block
+  position: absolute
+  top: 4px
+  right: 4px
+  bottom: 4px
+  left: 4px
+  background: $accent
+
+.customRadio__radio, .customRadio__input:checked + .customRadio__radio::before
+  border-radius: 50%
+
+.customCheckbox__checkbox:checked + .customCheckbox__chkb::before
+  content: ""
+  display: block
+  position: absolute
+  top: 5px
+  left: 3px
+  width: 10px
+  height: 7px
+  background: url("../img/sprite.png") 10px 0
+
+ul
+  list-style-type: none
+
+img
+  max-width: 100%
+
+.btn
+  font: 11px/2.1 "OpenSansSemibold", sans-serif
+  display: block
+  padding: 14px 27px
+  color: $lightAccent
+  letter-spacing: 2px
+  border: 1px solid $lightAccent
+  border-bottom-width: 2px
+  text-transform: uppercase
+  &:hover
+    text-decoration: none
+    color: $lightAccent
+    background-color: rgba(180, 154, 91, .05)
+  &-Inverce
+    background-color: $accent
+    border: none
+    color: #fff
+    &:hover
+      color: #fff
+      background-color: #9e936b
+  &-withArrow
+    position: relative
+    padding-right: 60px
+    font-size: 12px
+    &:after
+      content: ''
+      position: absolute
+      right: 35px
+      top: 20px
+      width: 9px
+      height: 17px
+      background: url("../img/sprite.png") 17px 0
+
+.hidden
+  display: none
+
+.sideBar
+  background-color: $dark
+  position: fixed
+  left: 0
+  width: 200px
+  height: 100vh
+  padding-top: 45px
+  display: flex
+  flex-direction: column
+  color: $accent
+  font-family: "OpenSansSemibold", sans-serif
+  &__logo
+    display: block
+    padding: 0 20px
+    margin-bottom: 110px
+  &__nav
+    ul
+      padding-left: 0
+      li
+        padding: 10px 25px 0 0
+        a
+          white-space: nowrap
+          display: block
+          letter-spacing: 1.5px
+          font-family: "OpenSansSemibold", sans-serif
+          font-size: 13px
+          text-transform: uppercase
+          border-bottom: 1px solid #3f3d3c
+          opacity: .5
+          color: $accent
+          padding-left: 29px
+          padding-bottom: 10px
+          transition: opacity .25s ease
+          &.active
+            opacity: .75
+          &:hover, &:active, &:focus
+            text-decoration: none
+            opacity: .75
+  &__bottom
+    margin-top: auto
+    padding-right: 20px
+    font-size: 13px
+
+    .search
+      display: inline-block
+      min-width: 60px
+      padding-bottom: 14px
+      .input-grp
+        position: relative
+        .search_btn
+          display: block
+          position: absolute
+          right: 15px
+          top: 2px
+          height: 22px
+          width: 18px
+          cursor: pointer
+          background: url("../img/sprite.png") 51px 0
+        .searchInp
+          width: 0
+          //width: 100%
+          height: 22px
+          border: none
+          background-color: transparent
+          border-bottom: 1px dotted transparent
+          &:focus
+            outline: none
+            border-bottom-color: $accent
+
+    .phone
+      letter-spacing: 2px
+    .signIn
+      a
+        display: flex
+        color: $accent
+        align-items: center
+        text-decoration: none
+        &:hover
+          text-decoration: none
+      &-icon
+        width: 20px
+        height: 25px
+        margin-right: 20px
+      &-text
+        opacity: .5
+        letter-spacing: 1px
+      a:hover .signIn-text
+        opacity: .75
+    > *
+      border-bottom: 1px solid #3f3d3c
+      padding-bottom: 20px
+      margin-bottom: 20px
+      padding-left: 29px
+      &:last-child
+        border-bottom: none
+        margin-bottom: 0
+
+.content
+  padding: 29px 25px 50px 80px
+  margin-left: 200px
+  &__topLine
+    display: flex
+    margin-bottom: 40px
+    .btn_buy
+      margin-left: auto
+
+.breadcrumb
+  text-transform: uppercase
+  li
+    position: relative
+    display: inline-block
+    &:after
+      content: ''
+      position: absolute
+      right: 0
+      top: 12px
+      width: 39px
+      height: 1px
+      background-color: #c8c8c8
+    &:last-child
+      &:after
+        display: none
+      a
+        color: $accent
+    &:first-child
+      margin-left: 0
+    a
+      color: #7b7b7b
+      font: 10px "OpenSansbold", sans-serif
+      margin-right: 50px
+      margin-left: 15px
+      letter-spacing: 2px
+
+.content__main
+  display: flex
+
+.productGallery
+  width: 47%
+
+.productInfo
+  width: 53%
+  padding-left: 74px
+  &__header
+    padding-bottom: 45px
+    h1
+      color: $accent
+      font: 50px/50px normal Georgia, serif
+      margin: 0
+      padding: 0
+      letter-spacing: 5px
+    .subtitle
+      margin-top: 10px
+      font-family: "CenturyGothicBold", sans-serif
+      color: #282826
+      margin-bottom: 30px
+    .description
+      color: #6a6a6a
+      width: 75%
+  &__aboutProduct
+    display: flex
+    justify-content: center
+    margin-bottom: 60px
+  &__buy
+    display: flex
+    .buy_links
+      margin-left: 70px
+      li
+        width: 152px
+        margin-bottom: 15px
+        a
+          text-decoration: none
+          font: 12px/28px "OpenSansSemibold", sans-serif
+          color: $accent
+          text-transform: uppercase
+          border-bottom: 1px solid $accent
+          &:hover
+            text-decoration: none
+            border-bottom-style: dashed
+  &__options
+    margin-top: 70px
+  &__calc
+    margin-top: 80px
+  &__deadline
+    margin-top: 100px
+    display: flex
+    background-color: $accent
+    padding: 50px 45px
+    color: #fff
+    text-transform: uppercase
+  &__review
+    margin-top: 80px
+    .h3
+      font-family: "Georgia", sans-serif
+      font-size: 34px
+      color: $dark
+      border-bottom: 1px solid $accent
+      padding-bottom: 12px
+      margin-bottom: 35px
+    .review__text
+      font-family: "CenturyGothic", sans-serif
+      font-size: 22px
+      line-height: 38px
+      margin-bottom: 35px
+    .review__clientAbout
+      color: #7b7b7b
+      .name
+        font-family: "OpenSansSemibold", sans-serif
+        font-size: 12px
+        letter-spacing: 2px
+      .city
+        font-family: "CenturyGothic", sans-serif
+        font-size: 15px
+        margin-bottom: 5px
+    .btn-wrap
+      align-items: center
+      display: flex
+      .line
+        height: 1px
+        background-color: $accent
+        &.lineR
+          width: 33px
+        &.lineL
+          width: 100%
+      .btn
+        white-space: nowrap
+        margin-left: auto
+        padding-right: 210px
+        display: inline-block
+        color: #fff
+  &__service
+    margin-top: 80px
+    .h3
+      font-family: "Georgia", sans-serif
+      font-size: 34px
+      color: $dark
+      margin-bottom: 50px
+    ul
+      li
+        display: flex
+        align-items: center
+        .number
+          font-size: 34px
+          font-family: "Times New Roman", serif
+          color: $accent
+        .text
+          padding-left: 35px
+          color: #000
+          font-size: 16px
+          line-height: 30px
+
+.aboutProduct__item
+  width: 33%
+  border: 1px solid #afa47c
+  border-right: none
+  padding: 15px 0 15px 25px
+  &:first-child
+    border-left: none
+    padding-left: 0
+  .h3
+    font-family: "OpenSansSemibold", sans-serif
+    font-size: 12px
+    text-transform: uppercase
+    letter-spacing: 3px
+    color: $dark
+  .descr
+    color: #6a6a6a
+    margin-top: 15px
+
+.productPrice
+  &__prices
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.priceItem
+  margin-bottom: 30px
+  width: 50%
+  flex-basis: 245px
+  &__caption
+    font-family: "OpenSansSemibold", sans-serif
+    font-size: 12px
+    letter-spacing: 3px
+    color: $dark
+  &__descr
+    color: #6a6a6a
+    font-family: "CenturyGothic", sans-serif
+
+.cost
+  margin-top: 10px
+  white-space: nowrap
+  line-height: 37px
+  letter-spacing: 3px
+  color: $accent
+  &__count
+    font-size: 44px
+    font-family: "Times New Roman", serif
+    &-bordered
+      border: 1px solid rgba(175, 164, 124, .37)
+      border-bottom: 2px solid $accent
+      display: inline-block
+  &__currency
+    position: relative
+    font-size: 14px
+    font-family: "OpenSans", sans-serif
+    text-transform: uppercase
+    &-withArrow
+      padding-right: 24px
+      &:after
+        position: absolute
+        content: ''
+        display: block
+        width: 14px
+        height: 8px
+        top: 2px
+        right: 0
+        background: url("../img/sprite.png") 33px 0
+
+.productOptions
+  &__h3
+    text-align: center
+    position: relative
+    color: $dark
+    font: 24px/40px "Georgia", serif
+    display: flex
+    white-space: nowrap
+    align-items: center
+    margin-bottom: 35px
+    span
+      padding: 0 30px
+    &:before, &:after
+      position: relative
+      content: ''
+      display: inline-block
+      height: 1px
+      width: 100%
+      background-color: $accent
+  &__options
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    .optionsItem
+      text-align: center
+      width: 33%
+      flex-basis: 192px
+      margin-bottom: 20px
+      padding: 0 20px
+      &__img
+        width: 70px
+        fill: $accent
+        margin-bottom: 25px
+      &__title
+        font-size: 16px
+        white-space: nowrap
+        font-family: "OpenSansSemibold", sans-serif
+        text-transform: uppercase
+        color: $accent
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-bottom: 32px
+        &:after
+          content: ""
+          margin-top: 25px
+          width: 77px
+          height: 1px
+          background-color: $accent
+
+      &__descr
+        font-family: "CenturyGothic", sans-serif
+        font-size: 16px
+        line-height: 30px
+        color: #000
+
+.calc
+  position: relative
+  border: 2px solid $accent
+  &__header
+    text-align: center
+    margin-top: -30px
+    margin-bottom: 17px
+    .h3
+      padding: 0 25px
+      background-color: #fff
+      font-size: 34px
+      line-height: 60px
+      font-family: "Georgia", serif
+      display: inline-block
+      color: $accent
+  &__content
+    padding: 0 35px
+  .calcContentWrapper
+    display: flex
+    > *
+      width: 50%
+  .calcContent
+    font-family: "CenturyGothic", sans-serif
+    &__item
+      .heading
+      font-family: "OpenSansbold", sans-serif
+      font-size: 10px
+      color: $dark
+      text-transform: uppercase
+    &__size
+      .heading
+        margin-bottom: 20px
+      .sizes
+        display: flex
+        margin-bottom: 15px
+        flex-direction: column
+        .row
+          display: flex
+          label
+            width: 50%
+          .label
+            font-size: 12px
+            font-family: "OpenSansSemibold", sans-serif
+            line-height: 36px
+            color: #7b7b7b
+            letter-spacing: 5px
+          &.custom
+            display: none
+            justify-content: space-between
+            label
+              width: 45%
+            .label
+              display: block
+            input
+              border: 1px solid rgba(175, 164, 124, .37)
+              border-bottom: 2px solid $accent
+              padding: 5px 0 5px 5px
+              max-width: 100%
+              &:focus
+                border: 1px solid $accent
+                border-bottom: 2px solid $accent
+                outline: none !important
+
+      .proportion, .other
+        font-size: 14px
+        line-height: 22px
+        font-family: CenturyGothic, sans-serif
+        color: #6a6a6a
+        margin-bottom: 5px
+      .other a
+        font-family: CenturyGothic, sans-serif
+        color: #6a6a6a
+        text-decoration: underline
+    &__service
+      .heading
+      margin-bottom: 20px
+  .request
+    position: absolute
+    bottom: -30px
+    left: 40px
+    .btn
+      font-size: 12px
+      padding: 17px 60px 18px 50px
+      position: relative
+
+.calcContent
+  &__service
+    margin-left: 55px
+    .customCheckbox
+      margin-bottom: 15px
+      &:hover .title
+        text-decoration: underline
+      .tooltip
+        position: relative
+        &__text
+          display: none
+          position: absolute
+          //display: block
+          border: 1px solid $accent
+          background-color: #fff
+          z-index: 2
+          top: -4px
+          right: 0
+          border-radius: 3px
+          padding: 10px
+          white-space: nowrap
+        &:before
+          content: '?'
+          margin-left: 10px
+          cursor: pointer
+          text-align: center
+          border-radius: 50%
+          line-height: 22px
+          color: $accent
+          font-family: "OpenSansSemibold", sans-serif
+          font-size: 12px
+          display: inline-block
+          width: 22px
+          height: 22px
+          border: 1px solid $accent
+          position: absolute
+  &__material
+    margin-top: 10px
+    select
+      width: 100%
+      font-size: 12px
+      line-height: 25px
+      font-family: "CenturyGothic", sans-serif
+      color: #6a6a6a
+      padding: 5px 15px
+      border: 1px solid rgba(175, 164, 124, .37)
+      border-bottom: 2px solid $accent
+      border-radius: 0
+      /*for WebKit*/
+      -webkit-appearance: none
+      -moz-appearance: none
+      text-indent: 0.01px
+      text-overflow: ''
+      /* for IE *
+      -ms-appearance: none
+      appearance: none !important
+    select::-ms-expand
+      display: none
+  &__summary
+    margin-top: 25px
+    margin-bottom: 57px
+    .cost
+      &__count
+        width: 48%
+        padding: 10px 15px
+
+.deadline__text
+  font-family: "OpenSansSemibold", sans-serif
+  font-size: 16px
+  line-height: 30px
+  letter-spacing: 5px
+
+.deadline__fromTo
+  font-family: "Times New Roman", serif
+  font-size: 30px
+  margin-left: 45px
+  &-big
+    font-size: 112px
+    line-height: 83px
+
+.footer
+  margin-top: 80px
+  color: $accent
+  .flex-wrap
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.social
+  margin-bottom: 30px
+  ul
+    display: flex
+    align-items: center
+    &:before, &:after
+      position: relative
+      content: ''
+      display: inline-block
+      height: 1px
+      width: 100%
+      background-color: $accent
+  li
+    white-space: nowrap
+    display: inline-block
+    margin-left: 40px
+    &:last-child
+      margin-right: 40px
+    a
+      text-decoration: none
+      opacity: .75
+      display: block
+      background: url("../img/sprite.png")
+      &:hover
+        text-decoration: none
+        opacity: 1
+      &.vk
+        width: 24px
+        height: 21px
+        background-position: 2px 0
+      &.fb
+        width: 12px
+        height: 21px
+        background-position: -33px 0
+      &.ig
+        width: 21px
+        height: 21px
+        background-position: -54px 0
+
+.copyright
+  font-size: 14px
+  line-height: 28px
+  font-family: "CenturyGothic", sans-serif
+
+.dev
+  p
+    display: inline
+  a
+    width: 128px
+    display: inline-block
+    margin-left: 30px
+
+.productGallery
+  &__view
+    padding-bottom: 100px
+    position: relative
+    &:before
+      position: absolute
+      bottom: 0
+      height: 67%
+      z-index: -1
+      width: 100%
+      content: ''
+      background: url(../img/gallery_bg.png) repeat
+    .video
+      position: absolute
+      right: 0
+      cursor: pointer
+      bottom: 132px
+      width: 270px
+      height: 160px
+      border: 10px solid #fff
+      &:after
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: 10
+        content: ''
+        top: 0
+        left: 0
+  .details
+    margin-top: 30px
+    display: flex
+    align-items: flex-start
+    justify-content: flex-end
+    .text
+      text-align: right
+      font-size: 14px
+      line-height: 20px
+      font-family: "OpenSansbold", sans-serif
+      letter-spacing: 2px
+      text-transform: uppercase
+      color: #282826
+    .images
+      margin-left: 35px
+      img
+        margin-righ
+
+@import "media"

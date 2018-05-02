@@ -9,31 +9,29 @@ var gulp         = require('gulp'),
 
 gulp.task('browser-sync', ['styles', 'scripts'], function() {
 		browserSync.init({
-				server: {
-						baseDir: "./app"
-				},
-				notify: false
+            injectChanges: true,
+			server: "./app"
+				// notify: false
 		});
 });
 
 gulp.task('styles', function () {
-	return gulp.src('sass/*.sass')
+	return gulp.src('./app/sass/*.sass')
 	.pipe(sass({
-		includePaths: require('node-bourbon').includePaths
-	}).on('error', sass.logError))
+        includePaths: require('node-bourbon').includePaths
+    }).on('error', sass.logError))
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
 	.pipe(cleanCSS())
 	.pipe(gulp.dest('app/css'))
-	.pipe(browserSync.stream());
+	.pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 gulp.task('scripts', function() {
 	return gulp.src([
 		'./app/libs/modernizr/modernizr.js',
 		'./app/libs/jquery/jquery-1.11.2.min.js',
-		'./app/libs/waypoints/waypoints.min.js',
-		'./app/libs/animate/animate-css.js',
+		'./app/libs/magnific-popup/dist/jquery.magnific-popup.js',
 		])
 		.pipe(concat('libs.js'))
 		// .pipe(uglify()) //Minify libs.js
@@ -41,10 +39,28 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('sass/*.sass', ['styles']);
+	gulp.watch('./app/sass/*.sass', ['styles']).on('change', browserSync.reload);
 	gulp.watch('app/libs/**/*.js', ['scripts']);
 	gulp.watch('app/js/*.js').on("change", browserSync.reload);
 	gulp.watch('app/*.html').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
+
+gulp.task('bs_init', function () {
+	browserSync.init({
+		server: {
+			baseDir: './app'
+		}
+	});
+	gulp.watch('sass/*.sass', ['css_1'])
+});
+gulp.task('css_1', function () {
+	return gulp.src('sass/*.sass').
+		pipe(sass())
+		.pipe(gulp.dest('app/css'))
+		.pipe(browserSync.stream());
+});
+gulp.task('test', ['bs_init', "css_1"], function () {
+
+});

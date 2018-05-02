@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab2bdeed-89f1-4a24-9f77-bfa67570b014" name="Default" comment="" />
+    <list default="true" id="ab2bdeed-89f1-4a24-9f77-bfa67570b014" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/CenturyGothic/CenturyGothic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensansbold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/OpenSans/opensanssemibold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/fotorama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/fotorama@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/gallery/gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/gallery_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/dev-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/dev-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/magnific-popup.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/iframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/retina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/fonts.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/fonts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/fonts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/header.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/header.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/kover.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/kover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/libs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/libs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_vars.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/fonts.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,27 +111,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="27" column="827" selection-start-line="27" selection-start-column="827" selection-end-line="27" selection-end-column="827" />
+            <state relative-caret-position="-416">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-658" />
+            <state relative-caret-position="825">
+              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1331">
+              <caret line="537" column="11" selection-start-line="537" selection-start-column="11" selection-end-line="537" selection-end-column="11" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>list-style-type: none</find>
+      <find>other</find>
+      <find>count</find>
+      <find>caption</find>
+      <find>за сч</find>
+      <find>curr</find>
+      <find>summ</find>
+      <find>calcC</find>
+      <find>cost</find>
+      <find>180</find>
+      <find>btn</find>
+      <find>optio</find>
+      <find>__cal</find>
+      <find>back</find>
+      <find>decora</find>
+      <find>sprite</find>
+      <find>youtu</find>
+      <find>custom</find>
+      <find>video</find>
+      <find>input</find>
+      <find>search_btn</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/sass/main.sass" />
+        <option value="$USER_HOME$/AppData/Local/Temp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/sass/fonts.sass" />
+        <option value="$PROJECT_DIR$/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/sass/header.sass" />
+        <option value="$PROJECT_DIR$/app/sass/fonts.sass" />
+        <option value="$PROJECT_DIR$/app/libs/fotorama/fotorama.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/header.sass" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -44,16 +223,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/libs/magnific-popup/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1010" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -76,14 +261,30 @@
               <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="main.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperial_Style_test" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperial_Style_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -96,7 +297,13 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Malko\PhpstormProjects\Imperial_Style_test\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,36 +328,64 @@
       <option name="presentableId" value="Default" />
       <updated>1525082060527</updated>
       <workItem from="1525082068432" duration="835000" />
-      <workItem from="1525083126303" duration="844000" />
+      <workItem from="1525083126303" duration="1100000" />
+      <workItem from="1525084351368" duration="606000" />
+      <workItem from="1525085909174" duration="9666000" />
+      <workItem from="1525095748004" duration="10605000" />
+      <workItem from="1525242364164" duration="17778000" />
+      <workItem from="1525261764741" duration="31033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1679000" />
+    <option name="totallyTimeSpent" value="71623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1010" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18811882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14947368" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18627451" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" weight="0.32893288" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14551422" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18811882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -158,24 +393,373 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Untitled-1.css" />
-    <entry file="file://$PROJECT_DIR$/app/img/favicon/apple-touch-icon.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4148">
+          <caret line="244" column="45" lean-forward="true" selection-start-line="244" selection-start-column="45" selection-end-line="244" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7446">
+          <caret line="438" column="26" selection-start-line="438" selection-start-column="26" selection-end-line="438" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="1666">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="27" column="827" selection-start-line="27" selection-start-column="827" selection-end-line="27" selection-end-column="827" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
           <caret line="27" column="827" selection-start-line="27" selection-start-column="827" selection-end-line="27" selection-end-column="827" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/svg/size.svg">
+    <entry file="file://$USER_HOME$/Desktop/Untitled-1.css" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/header.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="245" lean-forward="true" selection-start-column="245" selection-end-column="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vinyl-fs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-clean-css/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/app/js/libs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sprite.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/fotorama/fotorama.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="3" column="7793" selection-start-line="3" selection-start-column="7792" selection-end-line="3" selection-end-column="7793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/fotorama.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/gallery_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/kover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1588" column="28" selection-start-line="1588" selection-start-column="28" selection-end-line="1588" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#843#1447#0" />
+            <element signature="e#1301#1473#0" />
+            <element signature="e#1644#1660#0" />
+            <element signature="e#1900#1916#0" />
+            <element signature="e#2256#2272#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-534" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/fonts.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6112" lean-forward="true" selection-start-column="6112" selection-end-column="6112" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658" />
+        <state relative-caret-position="825">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="517" column="16" lean-forward="true" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="537" column="11" selection-start-line="537" selection-start-column="11" selection-end-line="537" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h3#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#form#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
