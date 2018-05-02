@@ -733,6 +733,7 @@ img
   &__view
     padding-bottom: 100px
     position: relative
+    padding-top: 30px
     &:before
       position: absolute
       bottom: 0
@@ -741,6 +742,22 @@ img
       width: 100%
       content: ''
       background: url(../img/gallery_bg.png) repeat
+    .like
+      position: absolute
+      top: 0
+      right: 0
+      width: 43px
+      height: 43px
+      border: 1px solid $accent
+      background-color: transparent
+      &:hover
+        background-color: rgba(175, 164, 124, .05)
+      a
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 100%
+
     .video
       position: absolute
       right: 0

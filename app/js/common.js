@@ -1,10 +1,12 @@
 document.addEventListener( 'DOMContentLoaded', function () {
+    $('body').css('display', 'block');
 
     if(!Modernizr.svg) {
         $("img[src*='svg']").attr("src", function() {
             return $(this).attr("src").replace(".svg", ".png");
         });
     }
+
 });
 function search(){
     // Do something
